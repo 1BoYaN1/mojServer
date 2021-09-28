@@ -22,39 +22,18 @@
 
      ?>
     <header>
+      <?php require "partials/navBar.php" ?>
+      
       <img src="assets/images/q.png" alt="">
       <h1>Qantox test</h1>
       <div class="widgetBox">
 
-        <div class="searchContainer">
-          <form class="" action="index.html" method="post">
-            <input placeholder="Search..." type="text" name="searchQuerry">
-            <button type="button" name="button">Search</button>
-          </form>
-        </div>
+        
 
-        <div class="loginContainer">
-          <form action="logInHandler.php" method="post">
-            <input type="text" name="logInEmail" value="">
-            <input type="text" name="logInPassword" value="">
-            <button type="submit" name="button">Log In</button>
-          </form>
-        </div>
+        
 
-        <div class="registerContainer">
-          <form class="" action="registrationHandler.php" method="post">
-            <input type="text" name="registerName" value="">
-            <input type="text" name="registerEmail" value="">
-            <input type="text" name="registerPassword" value="">
-            <input type="text" name="registerPasswordRepeat" value="">
-            <button type="submit" name="button">Register</button>
-          </form>
-        </div>
-
-        <a href="logout.php">
-          <button type="button" name="button">logout</button>
-        </a>
-
+        
+        
       </div>
     </header>
     <main>
