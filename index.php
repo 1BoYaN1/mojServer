@@ -11,6 +11,7 @@
      require 'connection.php';
 
      $sql = "SELECT * FROM users";
+     
 
      $query = mysqli_query($db,$sql); //mysql result set
      $result = mysqli_fetch_all($query,MYSQLI_ASSOC);
@@ -28,7 +29,7 @@
       <h1>Qantox test</h1>
       <div class="widgetBox">
 
-        
+   
 
         
 
