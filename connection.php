@@ -1,3 +1,3 @@
 <?php
-  $db = mysqli_connect('localhost','root','','mojaBaza') or die('err');
+  $db = mysqli_connect('localhost','root','toor','mojaBaza') or die('err');
  ?>

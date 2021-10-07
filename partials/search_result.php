@@ -1,6 +1,6 @@
 <div class="searchContainer">
-          <form class="" action="index.html" method="post">
-            <input placeholder="Search..." type="text" name="searchQuerry">
-            <button type="button" name="button">Search</button>
-          </form>
-        </div>
+  <form class="" action="../searchHandler.php" method="post">
+    <input placeholder="Search..." type="text" name="searchQuerry">
+    <button type="submit" name="button">Search</button>
+  </form>
+</div>
