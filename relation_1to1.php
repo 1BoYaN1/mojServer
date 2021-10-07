@@ -12,5 +12,5 @@ $query= mysqli_query($db,$sql);
 
 $result= mysqli_fetch_all($query);
 
-var_dump($result);
+
 ?>
