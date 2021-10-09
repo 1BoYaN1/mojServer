@@ -32,3 +32,14 @@ form{
  button{
   width: 100%;
 }
+
+.frameworksContainer input{
+  width: auto !important;
+}
+.frameworksContainer p{
+  display: inline;
+}
+.frameWorksBox{
+  display: flex;
+  align-items: center;
+}
