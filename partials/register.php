@@ -17,8 +17,6 @@
       <h2>Password</h2>
       <input type="password" required name="registerPassword" value="">
 
-      <input type="radio" name="gender" value="musko" required> Musko
-      <input type="radio" name="gender" value="zensko"> Zensko <br><br>
 
       <div class="frameworksContainer">
 
@@ -26,48 +24,48 @@
 
         <div class="frameWorksBox">
           <p> Front End Developer </p>
-          <input type="checkbox" name="stack_developer" value="frontend">
+          <input type="checkbox" name="frontend" value="frontend">
         </div>
         <div class="frameWorksBox">
           <p> Angular </p>
-          <input type="checkbox" name="frameworks" value="Angular_JS">
+          <input type="checkbox" name="Angular" value="Angular">
         </div>
         <div class="frameWorksBox">
           <p>Angular 2</p>
-          <input type="checkbox" name="frameworks" value="Angular_2">
+          <input type="checkbox" name="Angular_2" value="Angular_2">
         </div>
         <div class="frameWorksBox">
           <p> React </p>
-          <input type="checkbox" name="frameworks" value="Angular_2">
+          <input type="checkbox" name="React" value="React">
         </div>
         <div class="frameWorksBox">
           <p> Vue </p>
-          <input type="checkbox" name="frameworks" value="Vue">
+          <input type="checkbox" name="Vue" value="Vue">
         </div>
 
         <div class="frameWorksBox">
           <p> Back End Developer </p>
-          <input type="checkbox" name="stack_developer" value="backend">
+          <input type="checkbox" name="backend" value="backend">
         </div>
         <div class="frameWorksBox">
           <p> PHP </p>
-          <input type="checkbox" name="frameworks" value="PHP">
+          <input type="checkbox" name="PHP" value="PHP">
         </div>
         <div class="frameWorksBox">
           <p> Symfony </p>
-          <input type="checkbox" name="frameworks" value="Symfony">
+          <input type="checkbox" name="Symfony" value="Symfony">
         </div>
         <div class="frameWorksBox">
           <p> Laravel </p>
-          <input type="checkbox" name="frameworks" value="Laravel">
+          <input type="checkbox" name="Laravel" value="Laravel">
         </div>
         <div class="frameWorksBox">
           <p> NODE_JS </p>
-          <input type="checkbox" name="frameworks" value="Express">
+          <input type="checkbox" name="NODE_JS" value="NODE_JS">
         </div>
         <div class="frameWorksBox">
           <p>NestJS</p>
-          <input type="checkbox" name="frameworks" value="NestJS">
+          <input type="checkbox" name="NestJS" value="NestJS">
         </div>
       </div>
 
